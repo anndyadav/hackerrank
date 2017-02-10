@@ -1,2 +1,2 @@
 # hackerrank
-This repository contains code submissions on Online Judge Hackerrank.
+This repository contains my code submissions on Online Judge Hackerrank.
