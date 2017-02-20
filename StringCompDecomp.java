@@ -30,13 +30,14 @@ public class StringCompDecomp {
     
     public static String StringDecomp(String s){
         String mystr = "";
-        for(int i=0;i<s.length()-1;i++){
+        for(int i=0;i<s.length()-1;){
           char last = s.charAt(i);
           int no = Character.getNumericValue(s.charAt(i+1)); 
           while(no!=0){
               mystr+=last+"";
               no--;
           }
+            i+=2;
         }
         return mystr;
     }
